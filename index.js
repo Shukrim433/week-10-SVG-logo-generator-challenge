@@ -1,4 +1,4 @@
-const CLI = require('./lib/cli') //importing the CLI module/file
+const {CLI} = require('./lib/cli') //importing the CLI module/file
 
 const cli = new CLI() //creating a new object/instance of the CLI class
 
