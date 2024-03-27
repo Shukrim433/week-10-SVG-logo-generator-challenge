@@ -18,7 +18,7 @@ describe('LogoName text test', () => { //test throw an error if the logoName tex
 //check if logo name text and shape entered by user matches the shape and logo name text rendered in the svg markup:
 
 describe('Circle Logo markup test', () => {
-    it('should render the svg markup for a logo with the shape and logo name text the user enters', () => {
+    it('should render the svg markup for a logo with the same shape, colour, logo name, text and text colour the user enters', () => {
         const expectedMarkup = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> <text x="150" y="125" font-size="50" text-anchor="middle" fill="white">SVG</text> <circle cx="150" cy="100" r="80" fill="green" /></svg>`
         
         const circle = new Circle('green')
@@ -45,7 +45,7 @@ describe('Circle Logo markup test', () => {
 })
 
 describe('Square Logo markup test', () => {
-    it('should render the svg markup for a logo with the shape and logo name text the user enters', () => {
+    it('should render the svg markup for a logo with the same shape, colour, logo name, text and text colour the user enters', () => {
         const expectedMarkup = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> <text x="150" y="125" font-size="50" text-anchor="middle" fill="white">SVG</text> <rect x="90" y="40" width="120" height="120" fill="green" /></svg>`
         
         const square = new Square('green')
@@ -57,7 +57,7 @@ describe('Square Logo markup test', () => {
 })
 
 describe('Triangle Logo markup test', () => {
-    it('should render the svg markup for a logo with the shape and logo name text the user enters', () => {
+    it('should render the svg markup for a logo with the same shape, colour, logo name, text and text colour the user enters', () => {
         const expectedMarkup = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"> <text x="150" y="125" font-size="50" text-anchor="middle" fill="white">SVG</text> <polygon points="150,20 250,180 50,180" fill="green" /></svg>`
         
         const triangle = new Triangle('green')
